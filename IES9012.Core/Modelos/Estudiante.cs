@@ -3,41 +3,42 @@
 namespace IES9012.Core.Modelos
 {
     public class Estudiante
-        //la propiedad [key], Id, se conveirte en la columna de clave principal en la base de datos.
-        //El nombre del campo debe tener la palabra Id al final para ser reconocido como tal.
-        //El sistema desde los modelos ejecutará una base de datos.
     {
+        //la propiedad ID se conveirte en la columna de clave principal en la base de datos.
+        //Para que el campo sea identificado como tal, tiene que tener el nombre seguido de 'id'
+        //para que el campo sea identificado, tiene que tener el nombre de la identidad "estudiantes"y  luego el id
         [Key]
         public int EstudianteId { get; set; }
-        //Hace que el campo no acepte valores nulos.
+        //hace que el campo no acepte valores nulos.
         [Required]
-        [StringLength(15)]
-        
-        //El ? indica que puede ser del tipo NULL.
+        [StringLength(50)]
+        //El signo de interrogación indica que la propiedad puede ser del tipo NULL. Puede representarse tambien:
+        //Public string Nombre{get;set;} =null!;
         public string? Nombre{ get; set; }
         [Required]
-        [StringLength(15)]
+        [StringLength(35)]
         public string? Apellido { get; set; }
-        
+        //En el navegador ademas de mostrar el fecha, mostrará el calendario.
         [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "0:dd/mm/yyyy", ApplyFormatInEditMode = true)]
-
-        //Decorador: cambia el cómo se visualizará el nombre de la propiedad ante el usuario.
+        [DisplayFormat(DataFormatString = "{0:dd/mm/yyyy}", ApplyFormatInEditMode = false)]
+        //Decorador: cambia la propiedad con la que el usuario visualizará el campo.
         [Display(Name ="Fecha de Inscripción")]
-
-        //Fecha actual, fecha del sistema.
+        //La siguiente propiedad mostrará la fecha actual, tomará la fecha del sistema.
         public DateTime FechaInscripcion { get; set; } = DateTime.Now;
-
-        //La propiedad inscripciones se relacionará con la tabla inscripciones y será una tabla puente
-        //entre materia y alumno. Es una clave foranea. La propiedad de inscripción es una propiedad
-        //de navegación, porque contiene otras entidades relacionadas con ella, por esto también
-        //es una 'collection', porque pueden haber varias entidades inscripcion relacionadas con
-        //estudiante.
+        //La propiedad inscripciones se relacionará con la tabla inscripciones. Será una tabla puente entre materia y alumno.
+        //Es una clave foránea.
+        //La propiedad inscripcion es una propiedad de navegación, contiene otras entidades relacionadas con ella.
+        //la propiedad inscipciones se define con ICollection<Inscripcion>
+        //Porque puede haber varias entidades Inscripcion relacionadas con Estudiante.
+        //I significa que es una interfaz
+        //una conexion es tu tipo de dato que va a tener en su interrior otro tipo de dato.
+        //ICollection es un tipo de dato que me arma una coleccion de objetos.
+        //Voy a tener una lista de un par de datos alumnosId e materiaId.
+        //La propiedad es null por las dudas que hay un alumno que no este cursando ninguna materia.
         public ICollection<Inscripcion>? Inscripciones { get; set; }
-        //ICollection es un tipo de dato que arma una coleccion de objetos
-        //I es una interfaz
-        //Una colección es tu tipo de dato que va a tener en su interrior otros tipos de datos.
-        //Esta colección tendrá una lista de un par de datos de IdAlumno, IdMateria, etc.
-        //La propiedad acepta valores NULL porque pueden haber alumnos no cursando materias.
+        
+      
+        
+
     }
 }

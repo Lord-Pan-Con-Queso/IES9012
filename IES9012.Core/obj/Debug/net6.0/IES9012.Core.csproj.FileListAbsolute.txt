@@ -22,15 +22,15 @@ C:\Users\danie\OneDrive\Escritorio\Escuela2022\Programacion II\visualstudiocode\
 C:\Users\danie\OneDrive\Escritorio\Escuela2022\Programacion II\visualstudiocode\IES9012\IES9012.Core\bin\Debug\net6.0\IES9012.Core.dll
 C:\Users\danie\OneDrive\Escritorio\Escuela2022\Programacion II\visualstudiocode\IES9012\IES9012.Core\bin\Debug\net6.0\IES9012.Core.pdb
 C:\Users\danie\OneDrive\Escritorio\Escuela2022\Programacion II\visualstudiocode\IES9012\IES9012.Core\obj\Debug\net6.0\ref\IES9012.Core.dll
-C:\Users\Nicole\Desktop\Accesos Directos\Segundo Año\PROGRAMACIÓN II\Visual Estudio 2022\IES9012\IES9012\IES9012.Core\bin\Debug\net6.0\IES9012.Core.deps.json
-C:\Users\Nicole\Desktop\Accesos Directos\Segundo Año\PROGRAMACIÓN II\Visual Estudio 2022\IES9012\IES9012\IES9012.Core\bin\Debug\net6.0\IES9012.Core.dll
-C:\Users\Nicole\Desktop\Accesos Directos\Segundo Año\PROGRAMACIÓN II\Visual Estudio 2022\IES9012\IES9012\IES9012.Core\bin\Debug\net6.0\IES9012.Core.pdb
-C:\Users\Nicole\Desktop\Accesos Directos\Segundo Año\PROGRAMACIÓN II\Visual Estudio 2022\IES9012\IES9012\IES9012.Core\obj\Debug\net6.0\IES9012.Core.csproj.AssemblyReference.cache
-C:\Users\Nicole\Desktop\Accesos Directos\Segundo Año\PROGRAMACIÓN II\Visual Estudio 2022\IES9012\IES9012\IES9012.Core\obj\Debug\net6.0\IES9012.Core.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Nicole\Desktop\Accesos Directos\Segundo Año\PROGRAMACIÓN II\Visual Estudio 2022\IES9012\IES9012\IES9012.Core\obj\Debug\net6.0\IES9012.Core.AssemblyInfoInputs.cache
-C:\Users\Nicole\Desktop\Accesos Directos\Segundo Año\PROGRAMACIÓN II\Visual Estudio 2022\IES9012\IES9012\IES9012.Core\obj\Debug\net6.0\IES9012.Core.AssemblyInfo.cs
-C:\Users\Nicole\Desktop\Accesos Directos\Segundo Año\PROGRAMACIÓN II\Visual Estudio 2022\IES9012\IES9012\IES9012.Core\obj\Debug\net6.0\IES9012.Core.csproj.CoreCompileInputs.cache
-C:\Users\Nicole\Desktop\Accesos Directos\Segundo Año\PROGRAMACIÓN II\Visual Estudio 2022\IES9012\IES9012\IES9012.Core\obj\Debug\net6.0\IES9012.Core.dll
-C:\Users\Nicole\Desktop\Accesos Directos\Segundo Año\PROGRAMACIÓN II\Visual Estudio 2022\IES9012\IES9012\IES9012.Core\obj\Debug\net6.0\refint\IES9012.Core.dll
-C:\Users\Nicole\Desktop\Accesos Directos\Segundo Año\PROGRAMACIÓN II\Visual Estudio 2022\IES9012\IES9012\IES9012.Core\obj\Debug\net6.0\IES9012.Core.pdb
-C:\Users\Nicole\Desktop\Accesos Directos\Segundo Año\PROGRAMACIÓN II\Visual Estudio 2022\IES9012\IES9012\IES9012.Core\obj\Debug\net6.0\ref\IES9012.Core.dll
+C:\Users\Usuario\Downloads\WEAS DE LA ESCUELA y eso\Programación\IES9012\IES9012.Core\bin\Debug\net6.0\IES9012.Core.deps.json
+C:\Users\Usuario\Downloads\WEAS DE LA ESCUELA y eso\Programación\IES9012\IES9012.Core\bin\Debug\net6.0\IES9012.Core.dll
+C:\Users\Usuario\Downloads\WEAS DE LA ESCUELA y eso\Programación\IES9012\IES9012.Core\bin\Debug\net6.0\IES9012.Core.pdb
+C:\Users\Usuario\Downloads\WEAS DE LA ESCUELA y eso\Programación\IES9012\IES9012.Core\obj\Debug\net6.0\IES9012.Core.csproj.AssemblyReference.cache
+C:\Users\Usuario\Downloads\WEAS DE LA ESCUELA y eso\Programación\IES9012\IES9012.Core\obj\Debug\net6.0\IES9012.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Downloads\WEAS DE LA ESCUELA y eso\Programación\IES9012\IES9012.Core\obj\Debug\net6.0\IES9012.Core.AssemblyInfoInputs.cache
+C:\Users\Usuario\Downloads\WEAS DE LA ESCUELA y eso\Programación\IES9012\IES9012.Core\obj\Debug\net6.0\IES9012.Core.AssemblyInfo.cs
+C:\Users\Usuario\Downloads\WEAS DE LA ESCUELA y eso\Programación\IES9012\IES9012.Core\obj\Debug\net6.0\IES9012.Core.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\WEAS DE LA ESCUELA y eso\Programación\IES9012\IES9012.Core\obj\Debug\net6.0\IES9012.Core.dll
+C:\Users\Usuario\Downloads\WEAS DE LA ESCUELA y eso\Programación\IES9012\IES9012.Core\obj\Debug\net6.0\refint\IES9012.Core.dll
+C:\Users\Usuario\Downloads\WEAS DE LA ESCUELA y eso\Programación\IES9012\IES9012.Core\obj\Debug\net6.0\IES9012.Core.pdb
+C:\Users\Usuario\Downloads\WEAS DE LA ESCUELA y eso\Programación\IES9012\IES9012.Core\obj\Debug\net6.0\ref\IES9012.Core.dll

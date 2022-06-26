@@ -7,14 +7,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<IES9012Context>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("IES9012Context") ?? throw new InvalidOperationException("Connection string 'IES9012Context' not found.")));
-//Inyección de dependencias: se usa porque muchos usuarios van a acceder al mismo tiempo y
-//se sobrecargaría el procesador de servidor. 
-
+//Esta linea se agrego al crear las paginas web. Inyeccion de dependencias.
+//Muchos usuarios van a a usar la web al mismo tiempo.
 builder.Services.AddDbContext<IES9012Context>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("IES9012Context") ?? throw new InvalidOperationException("La cadena de conexion'IES9012Context' no se encuentra.")));
-//Servicio contexto de base de datos. Servirá en toda las paginas que necesiten acceder a la base de datos.
-//Es el objeto que se va a instanciar para cada usuario en el navegador.
-
+//Servicio contexto de base de datos, servira en toda las paginas que necesiten acceder a la base de datos
+//Es el objeto que se va a instanciar para cada usuario.
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 var app = builder.Build();
 

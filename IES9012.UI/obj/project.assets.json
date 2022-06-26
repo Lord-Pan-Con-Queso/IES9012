@@ -9512,19 +9512,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nicole\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nicole\\Desktop\\Accesos Directos\\Segundo Año\\PROGRAMACIÓN II\\Visual Estudio 2022\\IES9012\\IES9012\\IES9012.UI\\IES9012.UI.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Downloads\\WEAS DE LA ESCUELA y eso\\Programación\\IES9012\\IES9012.UI\\IES9012.UI.csproj",
       "projectName": "IES9012.UI",
-      "projectPath": "C:\\Users\\Nicole\\Desktop\\Accesos Directos\\Segundo Año\\PROGRAMACIÓN II\\Visual Estudio 2022\\IES9012\\IES9012\\IES9012.UI\\IES9012.UI.csproj",
-      "packagesPath": "C:\\Users\\Nicole\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nicole\\Desktop\\Accesos Directos\\Segundo Año\\PROGRAMACIÓN II\\Visual Estudio 2022\\IES9012\\IES9012\\IES9012.UI\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Downloads\\WEAS DE LA ESCUELA y eso\\Programación\\IES9012\\IES9012.UI\\IES9012.UI.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Downloads\\WEAS DE LA ESCUELA y eso\\Programación\\IES9012\\IES9012.UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Nicole\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9538,8 +9538,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Nicole\\Desktop\\Accesos Directos\\Segundo Año\\PROGRAMACIÓN II\\Visual Estudio 2022\\IES9012\\IES9012\\IES9012.Core\\IES9012.Core.csproj": {
-              "projectPath": "C:\\Users\\Nicole\\Desktop\\Accesos Directos\\Segundo Año\\PROGRAMACIÓN II\\Visual Estudio 2022\\IES9012\\IES9012\\IES9012.Core\\IES9012.Core.csproj"
+            "C:\\Users\\Usuario\\Downloads\\WEAS DE LA ESCUELA y eso\\Programación\\IES9012\\IES9012.Core\\IES9012.Core.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Downloads\\WEAS DE LA ESCUELA y eso\\Programación\\IES9012\\IES9012.Core\\IES9012.Core.csproj"
             }
           }
         }
@@ -9591,7 +9591,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
