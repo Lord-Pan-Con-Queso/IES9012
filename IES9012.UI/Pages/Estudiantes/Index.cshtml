@@ -2,13 +2,13 @@
 @model IES9012.UI.Pages.Estudiantes.IndexModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Estudiantes";
 }
 
-<h1>Index</h1>
+<h1>Estudiantes</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create">Nuevo</a>
 </p>
 <table class="table">
     <thead>
@@ -17,10 +17,14 @@
                 @Html.DisplayNameFor(model => model.Estudiantes[0].Nombre)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Estudiantes[0].Apellido)
+                <a asp-page= "./Index" asp-route-clasificarOrden="@Model.OrdenNombre">
+                    @Html.DisplayNameFor(model => model.Estudiantes[0].Apellido)
+                </a>
             </th>
             <th>
+                <a asp-page= "./Index" asp-route-clasificarOrden = "@Model.OrdenFecha">
                 @Html.DisplayNameFor(model => model.Estudiantes[0].FechaInscripcion)
+                </a>
             </th>
             <th></th>
         </tr>

@@ -16,7 +16,7 @@ namespace IES9012.UI.Data
 
         public DbSet<Estudiante>? Estudiantes => Set<Estudiante>();
         public DbSet<Inscripcion>? Inscripciones => Set<Inscripcion>();
-        public DbSet<Materia>? Materias =>Set<Materia>();
+        public DbSet<Materia>? Materias => Set<Materia>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder) { 
 

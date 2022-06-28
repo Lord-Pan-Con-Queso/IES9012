@@ -20,7 +20,8 @@ namespace IES9012.Core.Modelos
         public string? Apellido { get; set; }
         //En el navegador ademas de mostrar el fecha, mostrará el calendario.
         [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:dd/mm/yyyy}", ApplyFormatInEditMode = false)]
+        //M mayúscula para Mes y m minúscula para minuto. Tener en cuenta para evitar errores.
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = false)]
         //Decorador: cambia la propiedad con la que el usuario visualizará el campo.
         [Display(Name ="Fecha de Inscripción")]
         //La siguiente propiedad mostrará la fecha actual, tomará la fecha del sistema.
