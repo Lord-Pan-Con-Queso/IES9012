@@ -25,9 +25,15 @@ namespace IES9012.UI.Pages.Estudiantes
     public string? FiltroActual { get; set; }
 
     public IList<Estudiante> Estudiantes { get; set; } = default!;
-
-    public async Task OnGetAsync(string clasificarOrden)
+        public async Task OnGetAsync(string clasificarOrden, string
+    cadenaFiltro)
     {
+        // Se le asigna a OrdenNombre un valor dependiendo del valor de
+        // clasificaOrden.
+        // Si clasificaOrden contiene un valor Null o una cadena vacía
+        // a OrdenNombre se le asigna Apellido_desc,
+        // si OrdenNombre no contiene un valor Null o una cadena vacía le
+        // asigna una cadena vacía.
         OrdenNombre = String.IsNullOrEmpty(clasificarOrden) ? "Apellido_desc" : "";
         //Se le asigna a OrdenFecha un valor dependiendo del valor de clasificarOrden.
         //Si clasificarOrden contiene FechaInscripcion, a OrdenFecha le asigna FechaInscripcion_desc,
@@ -39,12 +45,19 @@ namespace IES9012.UI.Pages.Estudiantes
         //IEnumerable consulta datos en memoria.
         //Para el enfoque IQueryable (from s in _context.Estudiantes select s;), el SQL traducido es:
         //Select * From Estudiantes as s;
+        FiltroActual = cadenaFiltro;
+
 
         if (_context.Estudiantes != null)
         {
             IQueryable<Estudiante> estudiantesIQ = from s in _context.Estudiantes select s;
 
-            switch (clasificarOrden)
+            if (!string.IsNullOrEmpty(cadenaFiltro))
+            {
+              estudiantesIQ = estudiantesIQ.Where(s => s.Apellido.Contains(cadenaFiltro) || s.Nombre.Contains(cadenaFiltro));
+            }
+
+                switch (clasificarOrden)
             {
                 case "Apellido_desc":
                     estudiantesIQ = estudiantesIQ.OrderByDescending(s => s.Apellido);
